@@ -1,0 +1,20 @@
+{
+  "name": "identity-proto",
+  "private": true,
+  "scripts": {
+    "test": "echo \"no tests\"",
+    "hardhat": "hardhat",
+    "deploy": "node scripts/deploy.js",
+    "start-backend": "node backend/index.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.12.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@openzeppelin/contracts": "^4.9.0"
+  },
+  "dependencies": {
+    "ethers": "^6.0.0",
+    "express": "^4.18.0",
+    "body-parser": "^1.19.0"
+  }
+}
